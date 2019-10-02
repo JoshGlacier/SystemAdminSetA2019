@@ -1,0 +1,53 @@
+body {
+  background-color: #FFEF00;
+}
+
+h2 + p {
+  background-color: #7F7700;
+  color: white;
+}
+
+h1,h2 {
+  background-color: #403C00;
+}
+
+a {
+  color: teal;
+}
+
+a:visited {
+  color: white
+}
+
+div li {
+  background-color: #BFB300;
+}
+
+p {
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+
+#table1 tr:nth-child(2n){
+  background-color: #7fff00;
+}
+
+#table1 tr:nth-child(2n+1){
+  background-color: #FF6347;
+}
+#table1 tr:nth-child(5){
+  background-color: #FFD700;
+}
+
+.Tuesday {
+  background-color: blue;
+}
+
+.Monday {
+  background-color: orange;
+}
+
+li:hover {
+  background-color: coral;
+}
